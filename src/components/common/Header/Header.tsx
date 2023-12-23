@@ -4,7 +4,7 @@ import { UserHeader } from '../User/UserHeader'
 
 export const Header = () => {
   return (
-    <header>
+    <header className='bg-gray-500 flex items-center justify-between h-20'>
       <Logo />
       <Navbar />
       <UserHeader />

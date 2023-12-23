@@ -3,9 +3,9 @@ import { RecipeRoutes } from "./routes/RecipeRoutes"
 
 export const RecipeApp = () => {
   return (
-    <div>
+    <main className="bg-white container">
       <Layout />
       <RecipeRoutes />
-    </div>
+    </main>
   )
 }
