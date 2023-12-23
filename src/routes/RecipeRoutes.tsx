@@ -1,13 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
-import { AboutPage, FoodPage, HomePage } from '../pages';
+import { AboutPage, RecipePage, HomePage } from '../pages';
 
-export const FoodRoutes = () => {
+export const RecipeRoutes = () => {
   return (
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/foods" element={<FoodPage />} />
+        <Route path="/recipe" element={<RecipePage />} />
       </Routes>
     </>
   )
