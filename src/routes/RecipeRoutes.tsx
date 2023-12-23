@@ -5,9 +5,10 @@ export const RecipeRoutes = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/*" element={<HomePage />} />
+        <Route path="/home" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/recipe" element={<RecipePage />} />
+        <Route path="/recipes" element={<RecipePage />} />
       </Routes>
     </>
   )

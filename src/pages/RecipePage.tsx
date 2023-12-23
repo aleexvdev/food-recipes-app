@@ -1,5 +1,5 @@
 export const RecipePage = () => {
   return (
-    <div>RecipePage</div>
+    <div className='bg-black text-white'>RecipePage</div>
   )
 }

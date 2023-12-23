@@ -1,6 +1,6 @@
 
 export const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <div className='bg-black text-white'>AboutPage</div>
   )
 }
