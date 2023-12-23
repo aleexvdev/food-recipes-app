@@ -1,8 +1,14 @@
-import React from 'react'
+import { Logo } from '../Logo/Logo'
+import { Navbar } from '../Navbar/Navbar'
+import { UserHeader } from '../User/UserHeader'
 
 export const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+      <Logo />
+      <Navbar />
+      <UserHeader />
+    </header>
   )
 }
 

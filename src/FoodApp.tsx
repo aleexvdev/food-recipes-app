@@ -1,5 +1,11 @@
+import { Layout } from "./components/layout/Layout"
+import { FoodRoutes } from "./routes/FoodRoutes"
+
 export const FoodApp = () => {
   return (
-    <div>FoodApp</div>
+    <div>
+      <FoodRoutes />
+      <Layout />
+    </div>
   )
 }
