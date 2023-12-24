@@ -1,7 +1,7 @@
 export const HomePage = () => {
 
   return (
-    <section className='w-full h-[100vh] container text-white pb-24'>
+    <section className='w-full h-[100vh] container text-white pb-24 px-32'>
       <div className="w-full h-full flex items-center justify-center gap-10">
         <div className="w-[40%] flex flex-col items-center justify-end">
           <div className="w-full h-full flex flex-col items-end justify-center">
