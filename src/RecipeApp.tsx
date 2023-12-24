@@ -3,7 +3,7 @@ import { RecipeRoutes } from "./routes/RecipeRoutes"
 
 export const RecipeApp = () => {
   return (
-    <main className="bg-orange-500 mx-auto bg-main">
+    <main className="container mx-auto">
       <Layout />
       <RecipeRoutes />
     </main>
