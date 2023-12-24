@@ -8,11 +8,6 @@ export const navs: TypeNavs[] = [
   },
   {
     "id": 2,
-    "nav": "About us",
-    "link": "/about"
-  },
-  {
-    "id": 3,
     "nav": "Recipes",
     "link": "/recipes"
   }
