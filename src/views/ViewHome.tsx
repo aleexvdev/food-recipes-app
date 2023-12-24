@@ -3,7 +3,7 @@ import { CircleImage } from '../components/common/Foods/CircleImage'
 export const ViewHome = () => {
   return (
     <section className='bg-[#FFFEFC] w-full h-[100vh] text-white'>
-      <div className="w-full h-full flex items-center justify-center pb-20">
+      <div className="w-full h-full flex items-center justify-center container pb-20">
         <div className="w-[50%] h-full flex flex-col items-center justify-center">
           <div className="w-full h-full flex flex-col items-start justify-center">
             <span className="text-3xl text-orange-500 font-medium mb-3">Recipes</span>
