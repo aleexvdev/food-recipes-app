@@ -15,7 +15,7 @@ export const HomePage = () => {
         </div>
         <div className="w-[60%] h-full flex items-center justify-center py-20">
           <div className="w-full h-full flex items-center justify-start">
-            <img src="/public/assets/images/food_1.png" alt="Foody" title="Foody" className="rounded-full w-auto h-auto" />
+            <img src="/assets/images/food_1.png" alt="Foody" title="Foody" className="rounded-full w-auto h-auto" />
           </div>
         </div>
       </div>
