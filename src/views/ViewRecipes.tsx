@@ -1,3 +1,4 @@
+import IconArrowRight from "../assets/icons/IconArrowRight"
 import { ItemCard } from "../components/common/Card"
 import { recipes } from "../data/recipes"
 
@@ -19,8 +20,8 @@ export const ViewRecipes = () => {
             }
           </div>
         </div>
-        <div className="mb-10">
-          <button className="bg-orange-500 px-4 py-3 rounded-xl hover:bg-orange-700">See More Recipes -</button>
+        <div className="mb-10 w-full flex items-center justify-center">
+          <button className="bg-orange-500 px-4 py-3 text-xl rounded-xl hover:bg-orange-700 flex items-center justify-center">See More Recipes <IconArrowRight className="text-white font-semibold text-2xl ml-2" /></button>
         </div>
       </div>
     </section>
