@@ -15,7 +15,7 @@
 
 /* Estilo para el scroll personalizado */
 .scrollbar-custom::-webkit-scrollbar {
-  width: 15px; /* Ajusta el ancho del scroll según tus preferencias */
+  width: 6px; /* Ajusta el ancho del scroll según tus preferencias */
 }
 
 /* Estilo para el thumb (deslizador) del scroll */
