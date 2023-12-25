@@ -30,3 +30,10 @@
   /* border-top-right-radius: 16px; */
   /* border-bottom-right-radius: 16px; */
 }
+
+.stickyheader {
+  position: sticky;
+  top: 0;
+  background-color: #FFF9F0;
+  z-index: 1000;
+}
