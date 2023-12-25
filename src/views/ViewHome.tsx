@@ -21,17 +21,17 @@ export const ViewHome = () => {
           <div className="w-full h-full flex flex-col items-start justify-center">
             <span className="2xl:text-4xl lg:text-3xl md:text-[40px] text-3xl text-orange-500 font-medium 2xl:mb-3 lg:mb-3 md:mb-0">Recipes</span>
             <h1 className="text-black font-bold tracking-wider mb-5 md:mb-0 flex items-end justify-center">
-              <span className='2xl:text-9xl lg:text-8xl md:text-[90px] text-6xl mr-6'>Good</span>
-              <span className='flex items-end justify-center 2xl:text-9xl lg:text-8xl md:text-[90px] text-6xl'>F<span className='flex items-end justify-center lg:pb-2 md:pb-6'>
-                <img src={`/assets/images/plato_3.svg`} alt="Foody" title="Foody" className="rounded-full 2xl:w-full lg:w-14 md:w-16 h-auto w-12 select-none" />
-                <img src={`/assets/images/plato_5.svg`} alt="Foody" title="Foody" className="rounded-full 2xl:w-full lg:w-14 md:w-16 h-auto w-12 select-none" />
+              <span className='2xl:text-9xl lg:text-8xl md:text-[90px] text-6xl md:mr-6 lg:mr-6 2xl:mr-6 mr-0'>Good</span>
+              <span className='flex items-end justify-center 2xl:text-9xl lg:text-8xl md:text-[90px] text-6xl'>F<span className='flex items-end justify-center lg:pb-2 md:pb-1'>
+                <img src={`/assets/images/plato_3.svg`} alt="Foody" title="Foody" className="rounded-full 2xl:w-full lg:w-14 md:w-16 h-auto w-9 select-none" />
+                <img src={`/assets/images/plato_5.svg`} alt="Foody" title="Foody" className="rounded-full 2xl:w-full lg:w-14 md:w-16 h-auto w-9 select-none" />
               </span>d</span>
             </h1>
             <h1 className="text-black font-bold tracking-wider mb-10 md:mb-8 flex items-end justify-center">
-              <span className='2xl:text-9xl lg:text-8xl md:text-[90px] text-6xl mr-6'>Good</span>
-              <span className='flex items-end justify-center 2xl:text-9xl lg:text-8xl md:text-[90px] text-6xl'>M<span className='flex items-end justify-center md:pb-6'>
-                <IconBxHappyAlt className='2xl:text-[70px] lg:text-[60px] md:text-[70px] text-[50px] text-orange-500' />
-                <IconBxHappyAlt className='2xl:text-[70px] lg:text-[60px] md:text-[70px] text-[50px] text-orange-500' />
+              <span className='2xl:text-9xl lg:text-8xl md:text-[90px] text-6xl md:mr-6 lg:mr-6 2xl:mr-6 mr-0'>Good</span>
+              <span className='flex items-end justify-center 2xl:text-9xl lg:text-8xl md:text-[90px] text-6xl'>M<span className='flex items-end justify-center md:pb-0'>
+                <IconBxHappyAlt className='2xl:text-[70px] lg:text-[60px] md:text-[70px] text-[40px] text-orange-500' />
+                <IconBxHappyAlt className='2xl:text-[70px] lg:text-[60px] md:text-[70px] text-[40px] text-orange-500' />
               </span>d</span>
             </h1>
             <p className="font-semibold text-2xl text-gray-900 md:text-[30px]">The food palace is an neighborhood restaurent serving seasonal global cuisine driven by the faire.</p>

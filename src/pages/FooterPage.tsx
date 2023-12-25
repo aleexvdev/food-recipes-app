@@ -3,7 +3,7 @@ import { SocialNetworks } from "../components/common/Social/SocialNetworks"
 
 export const FooterPage = () => {
   return (
-    <footer className='bg-orange-500/30 h-auto py-5'>
+    <footer className='bg-orange-500/40 h-auto py-5'>
       <div className="w-full h-full flex flex-col items-center justify-center container">
         <div className='flex flex-col items-center justify-center 2xl:flex-row lg:flex-row md:flex-row'>
           <div className='flex flex-col items-start justify-start pt-2 px-10'>
