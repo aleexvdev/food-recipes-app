@@ -5,7 +5,7 @@ export const FooterPage = () => {
   return (
     <footer className='bg-orange-500/30 h-auto py-5'>
       <div className="w-full h-full flex flex-col items-center justify-center container">
-        <div className='flex items-center justify-center'>
+        <div className='flex flex-col items-center justify-center 2xl:flex-row lg:flex-row md:flex-row'>
           <div className='flex flex-col items-start justify-start pt-2 px-10'>
             <div className='flex flex-col flex-wrap justify-center w-full items-center'>
               <span className={`text-black font-medium text-lg pb-3 tracking-wide`}>Recipe data provided by</span>
@@ -18,7 +18,7 @@ export const FooterPage = () => {
               </Link>
             </div>
           </div>
-          <div className='flex flex-col items-start justify-start pt-2 px-3'>
+          <div className='flex flex-col items-start justify-start pt-5 px-3 2xl:pt-2 lg:pt-2 md:pt-2'>
             <div className='flex flex-col flex-wrap justify-center w-full items-center'>
               <span className={`text-black font-medium text-lg pb-3 tracking-wide`}>Touch here 👇🏻</span>
               <SocialNetworks />

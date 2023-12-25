@@ -12,7 +12,7 @@ export default {
       center: true,
     },
     screens: {
-      'sm': '240px',
+      // 'sm': '440px',
       // => @media (min-width: 640px) { ... } mobiles
 
       'md': '768px',
