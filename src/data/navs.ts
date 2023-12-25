@@ -4,7 +4,7 @@ export const navs: TypeNavs[] = [
   {
     "id": 1,
     "nav": "Home",
-    "link": "/home"
+    "link": "/"
   },
   {
     "id": 2,
