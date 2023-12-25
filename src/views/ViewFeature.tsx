@@ -2,16 +2,16 @@ import { ItemCategory } from "../components/common/Card/ItemCategory"
 import { categories } from "../data/categories"
 
 export const ViewFeature = () => {
+  //bg-[#FFF9F0]
   return (
-    <section className='bg-[#FFF9F0] w-full h-[90vh] text-white pb-36'>
+    <section className='bg-[#FFF9F0] w-full 2xl:h-auto lg:h-auto text-white 2xl:my-0 2xl:px-44 lg:px-28 lg:mb-0 lg:py-20'>
       <div className="w-full h-full flex flex-col items-center justify-center container">
         <div className="w-full h-full flex flex-col items-center justify-center">
-          <span className="text-3xl text-orange-500 font-medium mb-3">Features</span>
-          <h1 className="text-5xl text-black font-bold mb-3">Popular Categories</h1>
-          <p className="font-semibold text-2xl text-gray-900 mt-10">Check out the variety of culinary categories, from comforting breakfasts to indulgent dinners.</p>
+          <span className="2xl:text-5xl lg:text-4xl text-orange-500 font-medium mb-3">Features</span>
+          <h1 className="2xl:text-7xl lg:text-6xl text-black font-bold mb-3">Popular Categories</h1>
+          <p className="2xl:text-4xl lg:text-3xl font-semibold text-gray-900 mt-10 lg:mt-[4rem]">Check out the variety of culinary categories, from comforting breakfasts to indulgent dinners.</p>
           <div 
-            className="flex items-center justify-center gap-10"
-            style={{ margin: '5rem 0' }}
+            className="flex items-center justify-center gap-10 lg:flex-wrap lg:px-20 lg:mt-[4rem]"
           >
             {
               categories.map( (category, index) => (
