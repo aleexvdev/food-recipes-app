@@ -13,7 +13,7 @@ export const SocialNetworks = () => {
             target='_blank'
           >
             <img 
-              src={`/src/assets/icons/IconsSocial/${network.icon}.svg`} 
+              src={`/assets/images/IconsSocial/${network.icon}.svg`} 
               alt={network.social_network} 
               title={network.social_network} 
               
