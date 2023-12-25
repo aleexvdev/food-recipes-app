@@ -17,7 +17,7 @@ export const ViewRecipes = () => {
         <div className="w-full h-full flex flex-col items-center justify-center">
           <span className="text-3xl text-orange-500 font-medium mb-3">Recipes</span>
           <h1 className="text-5xl text-black font-bold">Most Popular Recipes</h1>
-          <p className="font-semibold text-2xl text-gray-900 mt-10">The food palace is an neighborhood restaurent serving seasonal global cuisine driven by the faire.</p>
+          <p className="font-semibold text-2xl text-gray-900 mt-10">Among the most popular recipes on the platform you will find delicious classics such as Ceviche, Lomo Saltado and Arroz Verde.</p>
           <div 
             className="flex items-center justify-center gap-10"
             style={{ margin: '5rem 0' }}
