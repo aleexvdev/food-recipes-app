@@ -9,6 +9,13 @@ export type TypeImageData = {
   image: string;
 }
 
+export type ItemCategoryProps = {
+  id: number;
+  category: string;
+  image: string;
+  text: string;
+}
+
 export type FetchRecipe = {
   from: number;
   to: number;

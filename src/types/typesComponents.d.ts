@@ -3,4 +3,5 @@ export type TypeButton = {
   text: string;
   color?: string;
   onclick?: () => void;
+  class?: string;
 }
