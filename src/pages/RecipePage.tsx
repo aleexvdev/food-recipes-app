@@ -5,7 +5,7 @@ export const RecipePage = () => {
         <div className="w-full flex flex-col items-center justify-center">
           <div className="w-full h-full flex flex-col items-center justify-center">
             <span className="text-3xl text-orange-500 font-medium">Recipes</span>
-            <h1 className="text-4xl text-black font-bold">Muy pronto....</h1>
+            <h1 className="text-4xl text-black font-bold">Muy pronto gaaa....</h1>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { categories } from "../data/categories"
 
 export const ViewFeature = () => {
   return (
-    <section className='bg-[#FFF9F0] w-full h-[90vh] text-white'>
+    <section className='bg-[#FFF9F0] w-full h-[90vh] text-white pb-36'>
       <div className="w-full h-full flex flex-col items-center justify-center container">
         <div className="w-full h-full flex flex-col items-center justify-center">
           <span className="text-3xl text-orange-500 font-medium mb-3">Features</span>

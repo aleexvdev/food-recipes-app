@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { ButtonFood } from "../components/common/Button/ButtonFood"
 import { ItemCard } from "../components/common/Card"
 import { recipes } from "../data/recipes"
@@ -30,7 +31,9 @@ export const ViewRecipes = () => {
           </div>
         </div>
         <div className="mb-10 w-full flex items-center justify-center pt-10">
-          <ButtonFood props={btnprops} />
+          <Link to={'/recipes'}>
+            <ButtonFood props={btnprops} />
+          </Link>
         </div>
       </div>
     </section>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ItemCategoryProps } from "../../../types/types"
 import { TypeButton } from "../../../types/typesComponents";
 import { ButtonFood } from "../Button/ButtonFood";
@@ -23,7 +24,9 @@ export const ItemCategory = ({ id, category, image }: ItemCategoryProps) => {
           />
         </div>
         <div className="w-full flex items-center justify-center absolute">
-          <ButtonFood props={btnprops} />
+          <Link to={'/recipes'}>
+            <ButtonFood props={btnprops} />
+          </Link>
         </div>
       </div>
     </article>

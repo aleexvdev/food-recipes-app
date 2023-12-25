@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import IconBxHappyAlt from '../assets/icons/IconBxHappyAlt'
 import { ButtonFood } from '../components/common/Button/ButtonFood'
 import { CircleImage } from '../components/common/Foods/CircleImage'
@@ -33,7 +34,9 @@ export const ViewHome = () => {
             </h1>
             <p className="font-semibold text-2xl text-gray-900">The food palace is an neighborhood restaurent serving seasonal global cuisine driven by the faire.</p>
             <div className='mt-14'>
-              <ButtonFood props={btnprops} />
+              <Link to={'/recipes'}>
+                <ButtonFood props={btnprops} />
+              </Link>
             </div>
           </div>
         </div>
