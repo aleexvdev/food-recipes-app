@@ -1,6 +1,3 @@
-import { ItemCard } from "../components/common/Card"
-import { recipes } from "../data/recipes"
-
 export const RecipePage = () => {
   return (
     <section className='w-full h-[100vh] container text-white pb-24 px-32'>
@@ -11,11 +8,7 @@ export const RecipePage = () => {
             <h1 className="text-4xl text-black font-bold">Most Popular Items</h1>
           </div>
           <div className="w-full h-full flex items-center justify-center mt-10 gap-10">
-            {
-              recipes.map( (recipe, index) => (
-                <ItemCard key={index} props={recipe} />
-              ))
-            }
+            
           </div>
           <div className="w-full h-full flex items-center justify-center mt-10">
             <button className="px-5 py-3 text-white bg-orange-500 rounded-2xl text-xl font-medium hover:bg-orange-600">See More Recipes</button>

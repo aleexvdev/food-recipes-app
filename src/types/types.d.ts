@@ -125,3 +125,10 @@ export type Total = {
   quantity?: number;
   unit?:     Unit|string;
 }
+
+export type TypeNetworks = {
+  id: number;
+  social_network: string;
+  url: string;
+  icon: string;
+}

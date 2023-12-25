@@ -1,7 +1,6 @@
-import { ViewAbout } from "../views/ViewAbout"
-import { ViewFeature } from "../views/ViewFeature"
-import { ViewHome } from "../views/ViewHome"
-import { ViewRecipes } from "../views/ViewRecipes"
+
+import { ViewAbout, ViewFeature, ViewHome, ViewRecipes } from "../views"
+import { FooterPage } from "./FooterPage"
 
 export const HomePage = () => {
 
@@ -11,6 +10,7 @@ export const HomePage = () => {
       <ViewAbout />
       <ViewFeature />
       <ViewRecipes />
+      <FooterPage />
     </>
   )
 }
