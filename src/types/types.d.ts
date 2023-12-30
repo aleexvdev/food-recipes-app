@@ -21,7 +21,7 @@ export type FetchRecipe = {
   to: number;
   count: number;
   _links?: NextPageFetch;
-  hits: Hits;
+  hits: Hits[];
 }
 
 export type NextPageFetch = {
@@ -48,34 +48,35 @@ export type DataRecipe = {
 }
 
 export type Recipe = {
-  uri?:               string;
-  label?:             string;
-  image?:             string;
-  images?:            Images;
-  source?:            string;
-  url?:               string;
-  shareAs?:           string;
-  yield?:             number;
-  dietLabels?:        string[];
-  healthLabels?:      string[];
-  cautions?:          string[]|[];
-  ingredientLines?:   string[];
-  ingredients?:       Ingredient[];
-  calories?:          number;
+  uri?: string;
+  label?: string;
+  image?: string;
+  images?: Images;
+  source?: string;
+  url?: string;
+  shareAs?: string;
+  yield?: number;
+  dietLabels?: string[];
+  healthLabels?: string[];
+  cautions?: string[] | [];
+  ingredientLines?: string[];
+  ingredients?: Ingredient[];
+  calories?: number;
   totalCO2Emissions?: number;
   co2EmissionsClass?: string;
-  totalWeight?:       number;
-  totalTime?:         number;
-  cuisineType?:       string[];
-  mealType?:          string[];
-  dishType?:          string[];
-  totalNutrients?:    { [key: string]: Total };
-  totalDaily?:        { [key: string]: Total };
-  digest?:            Digest[];
-  instructionLines?:  string[];
-  summary?:           string;
-  tags?:              string[];
-}
+  totalWeight?: number;
+  totalTime?: number;
+  cuisineType?: string[];
+  mealType?: string[];
+  dishType?: string[];
+  totalNutrients?: { [key: string]: Total };
+  totalDaily?: { [key: string]: Total };
+  digest?: Digest[];
+  instructionLines?: string[];
+  summary?: string;
+  tags?: string[];
+};
+
 
 export type Digest = {
   label?:        string;

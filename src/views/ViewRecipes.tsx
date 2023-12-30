@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
-import { FetchRecipe } from "../types/types"
+import { FetchRecipe, Hits } from "../types/types"
 import { getRecipes } from "../service/apirecipes"
 import { CardRecipeView } from "../components/common/Card/CardRecipeView"
 import IconRight from "../assets/icons/IconRight"
@@ -32,7 +32,8 @@ export const ViewRecipes = () => {
               className="w-[80%] h-full flex flex-col 2xl:flex-row md:flex-row md:flex-wrap items-center justify-center gap-10 lg:mt-[4rem] md:mt-[3rem] mt-14k"
             >
               {
-                recipes?.hits && recipes.hits.slice(0, 6).map((hit, index) => (
+                recipes?.hits &&
+                recipes.hits.slice(0, 6).map((hit: Hits, index: number) => (
                   <CardRecipeView key={index} id={index} props={hit} />
                 ))
               }
