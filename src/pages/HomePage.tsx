@@ -7,10 +7,10 @@ export const HomePage = () => {
   return (
     <>
       <ViewHome />
-      <ViewAbout />
       <ViewFeature />
-      <ViewRecipes />
-      <FooterPage />
+      {/* <ViewFeature /> */}
+      {/* <ViewRecipes /> */}
+      {/* <FooterPage /> */}
     </>
   )
 }

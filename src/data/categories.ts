@@ -30,5 +30,11 @@ export const categories: ItemCategoryProps[] = [
     category: "Teatime",
     image: "Teatime",
     text: "",
+  },
+  {
+    id: 6,
+    category: "Drink",
+    image: "Drink",
+    text: "",
   }
 ]
