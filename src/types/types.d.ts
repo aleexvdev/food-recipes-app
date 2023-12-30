@@ -30,7 +30,7 @@ export type NextPageFetch = {
 }
 
 export type Hits = {
-  recipe?: Recipe;
+  recipe: Recipe;
   _links?: Links;
 }
 
@@ -131,4 +131,10 @@ export type TypeNetworks = {
   social_network: string;
   url: string;
   icon: string;
+}
+
+export type TypeGetRecipe = {
+  data: FetchRecipe|null;
+  message: string;
+  status: number;
 }

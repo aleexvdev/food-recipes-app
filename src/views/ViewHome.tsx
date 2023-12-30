@@ -15,7 +15,7 @@ export const ViewHome = () => {
       <div className="w-full h-full flex flex-row items-center justify-center">
         <div className="w-[50%]">
           <div className="w-full h-full p-16">
-            <img src={`/assets/images/plato_2.svg`} alt="Food Recipe" title="Food Recipe" className="rounded-full w-full h-auto select-none border-[20px] p-3 border-[#60af46]" />
+            <img src={`/assets/images/plato_2.svg`} alt="Food Recipe" title="Food Recipe" className="rounded-full w-full h-auto select-none border-[20px] p-3 border-[#16A34A]" />
           </div>
         </div>
         <div className="w-[50%]">

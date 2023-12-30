@@ -12,7 +12,7 @@ export const ItemCategory = ({ id, category, image }: ItemCategoryProps) => {
     onclick: () => console.log('object'),
     text: category,
     type: "button",
-    class: `bg-green-500 text-white px-3 py-1 rounded-xl hover:bg-green-700 flex items-center justify-center text-lg lg:text-xl md:text-xl 2xl:text-xl cursor-pointer ${isHovered ? 'block' : 'hidden'}`
+    class: `bg-green-600 text-white px-3 py-1 rounded-xl hover:bg-green-700 flex items-center justify-center text-lg lg:text-xl md:text-xl 2xl:text-xl cursor-pointer ${isHovered ? 'block' : 'hidden'}`
   }
 
   return (

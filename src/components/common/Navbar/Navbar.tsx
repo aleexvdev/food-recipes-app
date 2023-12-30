@@ -13,11 +13,11 @@ export const Navbar = () => {
               key={nav.id}
               style={({ isActive }) => {
                 return {
-                  color: isActive ? "#F97316" : "black",
+                  color: isActive ? "#16A34A" : "black",
                 };
               }}
             >
-              <span className='text-xl font-semibold'>{nav.nav}</span>
+              <span className='text-xl font-bold'>{nav.nav}</span>
             </NavLink>
           ))
         }

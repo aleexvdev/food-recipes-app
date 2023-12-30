@@ -1,6 +1,6 @@
 export const RecipePage = () => {
   return (
-    <section className='w-full h-[100vh] container text-white pb-24 px-32'>
+    <section className='bg-white w-full h-[100vh] container text-white'>
       <div className="w-full h-full flex items-center justify-center gap-10">
         <div className="w-full flex flex-col items-center justify-center">
           <div className="w-full h-full flex flex-col items-center justify-center">

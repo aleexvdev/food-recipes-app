@@ -1,5 +1,5 @@
 
-import { ViewAbout, ViewFeature, ViewHome, ViewRecipes } from "../views"
+import { ViewFeature, ViewHome, ViewRecipes } from "../views"
 import { FooterPage } from "./FooterPage"
 
 export const HomePage = () => {
@@ -8,9 +8,8 @@ export const HomePage = () => {
     <>
       <ViewHome />
       <ViewFeature />
-      {/* <ViewFeature /> */}
-      {/* <ViewRecipes /> */}
-      {/* <FooterPage /> */}
+      <ViewRecipes />
+      <FooterPage />
     </>
   )
 }
