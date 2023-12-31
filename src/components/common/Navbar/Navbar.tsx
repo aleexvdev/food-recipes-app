@@ -17,7 +17,7 @@ export const Navbar = () => {
                 };
               }}
             >
-              <span className='text-xl font-bold'>{nav.nav}</span>
+              <span className='text-2xl font-bold'>{nav.nav}</span>
             </NavLink>
           ))
         }
