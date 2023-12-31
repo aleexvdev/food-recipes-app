@@ -18,7 +18,7 @@ export const ItemCategory = ({ id, category, image }: ItemCategoryProps) => {
   return (
     <article 
       key={id} 
-      className="w-full 2xl:w-[33.33%] lg:w-[33.33%] h-[250px] 2xl:h-full"
+      className="w-full 2xl:w-[33.33%] lg:w-[33.33%] md:w-[33.33%] h-[250px] 2xl:h-full"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

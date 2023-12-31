@@ -24,7 +24,7 @@ export const Layout = () => {
   const headerClass = isSticky ? 'stickyheader' : '';
 
   return (
-    <div className={`w-full ${headerClass} 2xl:px-52 lg:px-40 md:px-16 px-4`}>
+    <div className={`w-full ${headerClass} 2xl:px-72 lg:px-40 md:px-16 px-4`}>
       <Header />
     </div>
   )
