@@ -20,7 +20,7 @@ body {
 
 /* Estilo para el thumb (deslizador) del scroll */
 .scrollbar-custom::-webkit-scrollbar-thumb {
-  background-color: rgb(255, 77, 0); /* Color del thumb */
+  background-color: #16A34A; /* Color del thumb */
   /* border-radius: 16px; */
 }
 
@@ -43,5 +43,13 @@ body {
 }
 
 .stickyheader .logo2 {
+  color: #16A34A;
+}
+
+.stickyheader .linespan {
+  background: #16A34A;
+}
+
+.stickyheader .point {
   color: #16A34A;
 }

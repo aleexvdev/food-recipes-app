@@ -13,7 +13,7 @@ export const CardRecipeView = ({ id, props }: ItemCardProps) => {
   return (
     <article 
       key={id} 
-      className="w-60 h-[180px] shadow-md rounded-md relative"
+      className="w-full 2xl:w-80 h-[230px] 2xl:h-[250px] shadow-md rounded-md relative"
     >
       <div className="w-full h-full flex flex-col items-center justify-center">
         <div className="w-full h-full flex flex-col items-center justify-center">
